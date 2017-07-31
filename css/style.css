@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Roboto';
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pf-sidebar {
+  padding: 5vw;
+  background-color: #a72a4e;
+  color: #F0EEF1;
+}
+
+.pf-grid-item {
+  background-color: gray;
+  padding: 3vw;
+}
+
+.youtube{
+  background-color: #c4302b;
+  color: #F0EEF1;
+}
+
+.twitter{
+  background-color: #4099FF;
+  color: #F0EEF1;
+}
+
+.github{
+  background-color: #6e5494;
+  color: #F0EEF1;
+}
+
+.linkedin{
+  background-color: #0077b5;
+  color: #F0EEF1;
+}
+
+.mail{
+  background-color: #ea4335;
+  color: #F0EEF1;
+}
