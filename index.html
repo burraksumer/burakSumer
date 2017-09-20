@@ -3,9 +3,6 @@
 
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="Kişisel Web Sitesi, Blog">
-<meta name="keywords" content="Burak Sümer, Blog, Kişisel Web Sitesi, Resume">
-<meta name="author" content="Burak Sümer">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -17,12 +14,22 @@
 </head>
 
 <body>
-  <div class="pf-container">
+
+  <div class="pf-container hidden">
 
     <div class="pf-sidebar-container">
       <div class="pf-sidebar">
         <h1>Helo World</h1>
-        <p>Adım Burak Sümer, üretmeye çalışıyorum. Senin için, benim için...</p>
+        <p>Adım Burak Sümer, üretmete çalışıyorum. Senin için, benim için...</p>
+        
+        <div class="media">
+            <a href="https://twitter.com/burraksumer" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="https://github.com/burraksumer" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/burraksumer/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </div>
+
+        <a href="mailto:buraksumer13@gmail.com" target="_blank"><button class="button btn-primary">Bana Ulaş</button></a>
+
       </div>
     </div>
 
@@ -32,6 +39,12 @@
       <h1>İnternette Ben</h1>
 
       <div class="pf-grid">
+
+        <div class="pf-grid-item blog">
+          <h2>Blog</h2>
+          <p>Her daim bir blog'um olsun istedim, düzenli yazayım falan filan. Hiç beceremedim, acaba bu sefer başarılı olacak mıyım?</p>
+          <a href="https://buraksumer.com/blog/" target="_blank">Blog'a git <span class="fa fa-arrow-right"></span></a>
+        </div>
 
         <div class="pf-grid-item youtube">
           <h2>Youtube</h2>
@@ -57,18 +70,16 @@
           <a href="https://www.linkedin.com/in/burraksumer/" target="_blank">LinkedIn'e git <span class="fa fa-arrow-right"></span></a>
         </div>
 
-        <div class="pf-grid-item mail">
-          <h2>Bana Ulaş</h2>
-          <p>E buranın olayı belli, mail atmak istiyorsan at gelsin, her daim cevaplarım mailleri. Son sürüm tarayıcılarda sıkıntı oluyor o yüzden mail adresimi bırakıyorum buraya: buraksumer13@gmail.com</p>
-          <a href="mailto:buraksumer13@gmail.com" target="_blank">Mail at <span class="fa fa-arrow-right"></span></a>
-        </div>
-
       </div>
 
     </div>
 
   </div>
-
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>

@@ -1,3 +1,7 @@
+.hidden{
+  display:none;   
+ }
+
 .pf-container{
   display: flex;
 }
@@ -59,3 +63,9 @@
   }
 
 }
+
+  .media{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+  }
