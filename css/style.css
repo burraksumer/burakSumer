@@ -37,7 +37,7 @@ a {
 .blog{
   background-image: url("../img/blog-bg.jpeg");
   background-size: 100%;
-  background-attachment: fixed;
+  background-attachment: scroll;
   /* background-repeat: no-repeat; */
   color: #F0EEF1;
 }
