@@ -29,3 +29,7 @@ body {
   a:hover {
     color: #247BA0;
   }
+
+  .now{
+    font-size: 12px;
+  }
