@@ -1,3 +1,14 @@
+body.dark {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #1e2227;
+  font-size: 20px;
+  color: #fff;
+}
+
+    body.dark hr {
+      border: 1px solid #808080;
+    }
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #fdfdfd;
@@ -32,4 +43,9 @@ body {
 
   .now{
     font-size: 12px;
+  }
+
+  .dark {
+    font-size: 20px;
+    font-weight: 400;
   }
