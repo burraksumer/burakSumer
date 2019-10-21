@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{326:function(n,e,c){"use strict";c.r(e);var l=c(5),t=(c(2),c(321));e.default=function(){return Object(l.c)(t.a,null,Object(l.c)("h1",null,"BULUNAMADI"),Object(l.c)("p",null,"Öyle bir yere geldin ki, burada üzüntü bile yok."))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-176509e95639e6a5f268.js.map
